@@ -16,9 +16,9 @@ import net.minecraft.server.v1_7_R1.NBTTagList;
 
 public class NMSUtil {
 	
-	private static final char SECTION = '¤';
+	private static final char SECTION = '\u00a7'; // section sign
 	private static final char[] hexArray = "0123456789abcdef".toCharArray();
-	private static Pattern dataLore = Pattern.compile("(¤[0-9a-f]){1,16000}");
+	private static Pattern dataLore = Pattern.compile("(\u00a7[0-9a-f]){1,16000}");
 	
 	public static void storeItems(org.bukkit.inventory.ItemStack bag, List<org.bukkit.inventory.ItemStack> inventory){
 		
