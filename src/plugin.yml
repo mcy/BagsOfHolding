@@ -1,0 +1,8 @@
+name: BagsOfHolding
+main: com.xorinc.bags.BagsOfHolding
+version: 1.0.0
+author: drXor
+website: http://github.com/drXor
+description: >
+    Portable storage plugin
+
